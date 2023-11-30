@@ -1,0 +1,178 @@
+* {
+    margin: 0px;
+    padding: 0;
+}
+
+header{
+    justify-content: space-between;
+    display: flex;
+    background-color: #3155A4;
+    width: 100%;
+    height: 63px;
+}
+
+#txtBusca{
+    float:left;
+    background-color: #D9D9D9;
+    padding-left:5px;
+    padding-right: 300px;
+    font-style:italic;
+    font-size:18px;
+    border-radius: 20px;
+    border: 5px;
+    height:32px;
+    width:400px;
+    margin-top: 15px;
+    margin-right: 1rem;
+  }
+
+
+.logo{
+    width: 125px;
+    height: 33px;
+    margin-left: 28px;
+    margin-top: 10px;
+}
+
+.singIn{
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: -8px;
+}
+
+.login {
+    width:39px;
+    height: 40px;
+    margin-top: 13px;
+    margin-right: 18px;
+}
+
+.navegacao{
+    justify-content: space-between;
+    display: flex;
+    height: 20rem;
+}
+
+#container{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.biografia{
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+.biografia img{
+    padding: 5px;
+    height: 300px;
+    width: 350px;
+}
+
+.paragrafo{
+    padding-top: 10%;
+    padding-left: 30px;
+}
+
+.lista{
+    height: 50vh;
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.msc{
+    margin: 10px;
+    list-style: none;
+    line-height: 40px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.msc a{
+    text-decoration: none;
+    color: #000;
+}
+.msc li:hover{
+    background-color: #6b69692d;
+}
+span{
+    padding-left: 50px;
+}
+
+#um{
+    padding-left: 5px;
+    border: 2px solid #00000031;
+    border-radius: 8px;
+    margin-top:5px;
+}
+#dois{
+    padding-left: 5px;
+    border: 2px solid #00000031;
+    border-radius: 8px;
+    margin-top:5px;
+}
+#tres{
+    padding-left: 5px;
+    border: 2px solid #00000031;
+    border-radius: 8px;
+    margin-top:5px;
+}
+#quatro{
+    padding-left: 5px;
+    border: 2px solid #00000031;
+    border-radius: 8px;
+    margin-top:5px;
+}
+#cinco{
+    padding-left: 5px;
+    border: 2px solid #00000031;
+    border-radius: 8px;
+    margin-top:5px;
+}
+#seis{
+    padding-left: 5px;
+    padding-left: 5px;
+    border: 2px solid #00000031;
+    border-radius: 8px;
+    margin-top:5px;
+}
+#sete{
+    padding-left: 5px;
+    border: 2px solid #00000031;
+    border-radius: 8px;
+    margin-top:5px;
+}
+#oito{
+    padding-left: 5px;
+    border: 2px solid #00000031;
+    border-radius: 8px;
+    margin-top:5px;
+}
+#nove{
+    padding-left: 5px;
+    border: 2px solid #00000031;
+    border-radius: 8px;
+    margin-top:5px;
+}
+#dez{
+    border: 2px solid #00000031;
+    border-radius: 8px;
+    margin-top:5px;
+}
+
+
+.musica{
+    background-color: chocolate;
+    margin-top: 20px;
+    width: 30vw;
+    height: 80vh;
+    top: 0;
+    right: 0;
+    position: absolute;
+}
